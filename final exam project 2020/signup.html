@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOVPOST</title>
+    <link rel="stylesheet" type="text/css" href="style/general.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper-nav">
+        <div class="logo">
+            <h1>JOVPOST</h1>
+        </div>
+        <hr>
+        <div class="nav-list">
+            <ul>
+                <li><a style="color: #fff;" href="general.html">General News</a></li>
+                <li><a style="color: #fff;" href="tech.html">Tech News</a></li>
+                <li><a style="color: #fff;" href="politics.html">Politics</a></li>
+                <li><a style="color: #fff;" href="wall.html">Wall Street News</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="why">
+        <h1>Why should you sign-up?</h1>
+        <h2>Here are some of the <u>great reasons</u>:</h2>
+        <ul>
+            <li>We are a low price, trustworthy, modern news outlet.</li>
+            <li>We print your own special newspaper according to your interests.</li>
+            <li>Enviromentally friendly paper and ink.</li>
+            <li>24/7 top-of-the-shelf customer service.</li>
+            <li>Funniest, most interesting and never heard before <a href="general.html">General News</a> .</li>
+            <li>Newest developments in the Tech industry only on our <a href="tech.html">Tech News</a> .</li>
+            <li>Only the newest in politics on our <a href="politics.html">Politics</a> .</li>
+            <li>If you are into stocks check our <a href="wall.html">Wall Street News</a> .</li>
+        </ul>
+        <h3>And thats not all, become a member of our exclusive newspaper to figure out the rest!</h3>
+    </div>
+
+    <div class="form-wrap">
+        <div class="image">
+            <img src="img/form-pic.jpeg">
+        </div>
+        <form action="/action_page.php" method="get" required>
+
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Your name" onkeyup="checkName();"
+            required><br><br>
+            <span id="check"><span></span>
+
+
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Your Lastname" onkeyup="checkInput();"
+            required><br><br>
+
+
+            <label for="country">Country:</label>
+            <input type="text" id="country" name="country" placeholder="Country of residence" onkeyup="checkInput();"
+                required><br><br>
+
+
+            <label for="town">Town:</label>
+            <input type="text" id="town" name="town" placeholder="Town of residence" onkeyup="checkInput();"
+                required><br><br>
+
+
+            <label for="adress">Adress:</label>
+            <input type="text" id="adress" name="adress" placeholder="Your adress" onkeyup="checkAdress();"
+                required><br><br>
+            <label for="zip">Postal code:</label>
+            <input type="text" id="zip" name="zip" placeholder="Your postal code" onkeyup="checkZip();"
+                required><br><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Your e-mail" onkeyup="checkEmail();"
+                required><br><br>
+            <label for="confirmemail">Confirm Email:</label>
+            <input type="text" id="confirmemail" name="confirmemail" placeholder="Confirm your email"
+                onkeyup="checkEmail();" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" placeholder="Password" id="password" onkeyup="checkPass();" required><br><br>
+            <label for="password">Confirm Password:</label>
+            <input type="password" placeholder="Confirm Password" id="confirmpassword" required><br><br>
+            <button type="submit" class="pure-button pure-button-primary">Confirm</button>
+        </form>
+    </div>
+
+    <script src="form.js"></script>
+
+    <footer>
+        <div class="foot-list-wrap">
+            <div class="foot-list">
+                <ul>
+                    <li><a style="color: #fff;" href="https://www.instagram.com">Instagram</a></li>
+                    <li><a style="color: #fff;" href="https://www.facebook.com">Facebook</a></li>
+                    <li><a style="color: #fff;" href="https://www.linkedin.com">LinkedIn</a></li>
+                    <li><a style="color: #fff;" href="https://www.twitter.com">Twitter</a></li>
+                </ul>
+            </div>
+            <div class="foot-list">
+                <ul>
+                    <li><a style="color: #fff;" href="general.html">General News</a></li>
+                    <li><a style="color: #fff;" href="tech.html">Tech News</a></li>
+                    <li><a style="color: #fff;" href="politics.html">Politics</a></li>
+                    <li><a style="color: #fff;" href="wall.html">Wall Street News</a></li>
+                </ul>
+            </div>
+            <div class="copy">
+                <p>&copy; JOVPOST - 2020</p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,341 @@
+/*--------------------------------------------ALL elements------------------------------------------*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    font-family: 'Roboto', sans-serif;
+}
+
+#activelink{
+    background-color: #9D2F38;
+    border-radius: 5px;
+    padding: 0px 20px;
+    font-weight: bolder;
+}
+
+#activelink:hover{
+    background-color: #8D2A32;
+}
+/*----------------------------------------NAV WRAPPER------------------------------------------------*/
+.wrapper-nav{
+    background-color: #BC3843;
+    color: #fff;
+    height: 140px;
+}
+
+/*----------------------------------------LOGO------------------------------------------------*/
+
+.logo {
+    text-align: center;
+}
+
+.logo h1{
+    letter-spacing: 4px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-top: 11.5px;
+    display: block;
+}
+
+.logo h1 {
+    color:#fff;
+    font-size: 35px;
+}
+
+/*----------------------------------------Horizontal rule------------------------------------------------*/
+
+hr {
+    margin-bottom: 20px;
+}
+
+/*----------------------------------------NAV LIST------------------------------------------------*/
+
+.nav-list ul li a{
+    color: #fff;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+
+.nav-list ul li a:hover{
+    background-color: #9D2F38;
+    border-radius: 5px;
+    padding: 0px 20px;
+    font-weight: bolder;
+    transition: 0.4s;
+}
+
+.nav-list ul li {
+    list-style: none;
+    display: inline;
+    padding: 0 10px;
+}
+
+.nav-list {
+    text-align: center;
+}
+
+/*---------------Sign up---------*/
+
+#signup a {
+    float: right;
+    font-size: 18px;
+    position: absolute;
+    right: 100px;
+    background-color: #9D2F38;
+    border-radius: 5px;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+#signup a:hover {
+    float: right;
+    font-size: 18px;
+    position: fixed;
+    right: 100px;
+    background-color: #8D2A32;
+    border-radius: 5px;
+    padding: 0 25px;
+    transition: 0.2s;
+}
+
+#signup h1 {
+    float: right;
+    font-size: 18px;
+    position: absolute;
+    right: 80px;
+    font-weight: normal;
+}
+
+
+/*----------------------------------------FOOTER------------------------------------------------*/
+
+footer {
+    background-color: #BC3843;
+}
+
+/*------------------FOOT LIST-----------------------*/
+
+/*make them side by side*/
+.foot-list-wrap .foot-list{ display: inline;}
+.foot-list ul {display:inline-block;}
+.foot-list-wrap {display: block; position: relative;}
+.copy {display: inline; position: absolute; bottom: 50px; right: 280px;}
+.copy p {display: inline-block;}
+
+.foot-list ul li a{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+
+.foot-list ul li a:hover{
+    background-color: #9D2F38;
+    border-radius: 5px;
+    padding: 0px 20px;
+    font-weight: bolder;
+    transition: 0.4s;
+}
+
+.foot-list ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+/*copy*/
+
+.copy p{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #fff;
+    letter-spacing: 3px;
+    background-color: #BC3843;
+}
+
+.copy {
+    background-color: #BC3843;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*
+/*                                  SIGNUP*/
+
+/*WHY*/
+
+.why {
+    padding: 20px 0px 100px 150px;
+}
+
+.why h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+.why h2 {
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.why h3 {
+    font-size: 25px;
+}
+
+.why ul li {
+    font-size: 22px;
+    padding-bottom: 10px;
+    letter-spacing: 1.5px;
+}
+
+.why ul li a{
+    text-decoration: none;
+    color: #BC3843;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+
+.why ul li a:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(182, 182, 182);
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.4s;
+}
+
+/*form*/
+.form-wrap{
+    border-radius: 30px;
+    border: 1px solid #000;
+    width: 80%;
+    margin: 0 10%;
+    background-color: #fff;
+    height: 880px;
+    display: table;
+    margin-bottom: 120px;
+}
+
+.form-wrap img {
+    border-radius: 30px 0px 0px 30px;
+    opacity: 0.65;
+    width: 400px;
+    height: 880px;
+    object-fit: cover;
+}
+
+.form-wrap form {
+    padding: 20px 0 0 0 ;
+}
+
+.form-wrap form input{
+    margin: 10px;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.form-wrap label {
+    font-size: 20px;
+}
+
+.form-wrap form input[type=text]{
+    border: 2px solid #000;
+    border-radius: 9px;
+    background-color: #f8f0f1;
+    font-weight: bolder;
+}
+.form-wrap form input[type=password]{
+    border: 2px solid #000;
+    border-radius: 9px;
+    background-color: #f8f0f1;
+    font-weight: bolder;
+}
+
+.form-wrap form button[type=submit]{
+    padding: 16px 32px;
+    cursor: pointer;
+    background-color: #f8f0f1;
+    border-radius: 20px;
+}
+
+.form-wrap form button[type=submit]:hover{
+    background-color: #ffe8eb;
+
+}
+.form-wrap img, .form-wrap form{
+    display:table-cell;
+    vertical-align:top;
+}
+
+
+/*---------------------------------------NEWS DISPLAY---------------------------------------------*/
+
+.heading {
+    text-align: center ;
+}
+
+.heading a {
+    color: #000;
+    text-decoration: none;
+}
+
+.heading a:hover{
+    opacity: 0.6;
+}
+
+.news-display {
+    margin: 30px 0px 50px 80px;
+}
+
+.news-display a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding-top: 40px;
+    font-size: 28px;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+}
+
+.news-display a:hover {
+    opacity: 0.6;
+}
+
+.news-display p {
+    display: inline-block;
+    float: right;
+    margin: 0 120px 0 0;
+    font-size: 18px;
+    padding-top: 15px;
+    width: 500px;
+}
+
+.news-display img {
+    height: 200px;
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
